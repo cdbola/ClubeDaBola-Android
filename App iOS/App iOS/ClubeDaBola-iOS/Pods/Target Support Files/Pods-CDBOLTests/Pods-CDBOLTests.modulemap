@@ -1,0 +1,6 @@
+framework module Pods_CDBOLTests {
+  umbrella header "Pods-CDBOLTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

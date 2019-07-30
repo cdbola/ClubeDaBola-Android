@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+
+    tools:context="cdbol.br.com.clubedabola.screens.home.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:src="@drawable/zero8_1" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_i_hired"
+            style="@style/option_investment"
+            android:layout_weight="1"
+            android:button="@color/transparent"
+            android:checked="true"
+            android:padding="8dp"
+            android:text="Eu contratei" />
+
+        <RadioButton
+            android:id="@+id/radio_button_was_hired"
+            style="@style/option_rigth"
+            android:layout_weight="1"
+            android:button="@color/transparent"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="Fui Contratado" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Nenhuma Contratação"
+        android:visibility="gone" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_hired"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="110dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+    <Button
+        android:id="@+id/btnContratacao"
+        style="@style/style_button"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignBottom="@+id/navigation"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="58dp"
+        android:layout_marginLeft="@dimen/default_margin_20_dp"
+        android:layout_marginRight="@dimen/default_margin_20_dp"
+        android:enabled="true"
+        android:text="Nova Contratação" />
+
+</FrameLayout>

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jul 01 22:43:54 BRT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Thiago\\Desktop\\App Android-CDBola\\App Android\\ClubeDaBola-Android\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=banklist.json
+0.set=ASSET
+count=1

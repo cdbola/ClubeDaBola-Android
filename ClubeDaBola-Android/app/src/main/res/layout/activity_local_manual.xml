@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:orientation="vertical"
+    tools:context="cdbol.br.com.clubedabola.screens.localmanual.LocalManualActivity">
+
+    <include
+        android:id="@+id/toollbar_cadastro"
+        layout="@layout/toollbar_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edt_endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_margin_30_dp"
+        android:layout_marginLeft="@dimen/default_margin_5_dp"
+        android:layout_marginRight="@dimen/default_margin_5_dp"
+        android:hint="Endereço"
+        android:layout_marginBottom="@dimen/default_margin_8_dp"
+        />
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:id="@+id/edt_numero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_margin_30_dp"
+        android:layout_marginLeft="@dimen/default_margin_5_dp"
+        android:layout_marginRight="@dimen/default_margin_5_dp"
+        android:hint="Número"
+        android:layout_marginBottom="@dimen/default_margin_8_dp"
+        />
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:id="@+id/edt_complemento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_margin_30_dp"
+        android:layout_marginLeft="@dimen/default_margin_5_dp"
+        android:layout_marginRight="@dimen/default_margin_5_dp"
+        android:hint="Complento (opcional)"
+        android:layout_marginBottom="@dimen/default_margin_8_dp"
+        />
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <EditText
+        android:id="@+id/edt_bairro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_margin_30_dp"
+        android:layout_marginLeft="@dimen/default_margin_5_dp"
+        android:layout_marginRight="@dimen/default_margin_5_dp"
+        android:hint="Bairro"
+        android:layout_marginBottom="@dimen/default_margin_8_dp"
+        />
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+
+
+
+
+</LinearLayout>

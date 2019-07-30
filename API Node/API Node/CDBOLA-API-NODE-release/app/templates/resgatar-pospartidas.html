@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resgate de pós partidas</title>
+</head>
+
+<body>
+    <div>
+        <h3>Contratante {{name}},</h3>
+        <h4>ID {{contratante}},</h4>
+        <table border="1" cellpadding="7" width="400">
+          <tr>
+            <th>Data adição</th>
+            <th>Valor</th>
+            <th>Á Retirar</th>
+          </tr>
+          {{#each posPartidas}}
+            <tr>
+              <td>{{dataAdicao}}</td>
+              <td>R${{valor}}</td>
+              <td>{{retirado}}</td>
+            </tr>
+          {{/each}}
+        </table>
+
+        <br>
+        <p>[]s</p>
+    </div>
+</body>

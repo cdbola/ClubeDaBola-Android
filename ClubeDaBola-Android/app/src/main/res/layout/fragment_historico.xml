@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@+id/radio_group_historic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/default_margin_20_dp"
+        android:layout_marginBottom="@dimen/default_margin_10_dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_button_i_hired_historic"
+            style="@style/option_investment"
+            android:layout_weight="1"
+            android:button="@color/transparent"
+            android:checked="true"
+            android:padding="8dp"
+            android:text="Eu contratei" />
+
+        <RadioButton
+            android:id="@+id/radio_button_was_hired_historic"
+            style="@style/option_rigth"
+            android:layout_weight="1"
+            android:button="@color/transparent"
+            android:checked="false"
+            android:padding="8dp"
+            android:text="Fui Contratado" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:hint="Mês: "
+            android:background="@drawable/shape_button_rounded_transparent"
+            android:iconifiedByDefault="false">
+
+        </SearchView>
+
+        <!--<SearchView-->
+            <!--android:id="@+id/search_year"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="8dp"-->
+            <!--android:layout_marginRight="16dp"-->
+            <!--android:layout_marginLeft="16dp"-->
+            <!--android:hint="Ano: "-->
+            <!--android:background="@drawable/shape_button_rounded_transparent"-->
+            <!--android:iconifiedByDefault="false">-->
+
+        <!--</SearchView>-->
+
+    </LinearLayout>
+
+
+
+    <android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rl_historic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="110dp">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

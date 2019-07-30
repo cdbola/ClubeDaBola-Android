@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@drawable/background_toolbar"
+        android:fitsSystemWindows="true"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_back"
+        android:background="@color/transparent"
+        android:textAllCaps="false"
+        android:textColor="@color/white_FFFFFF"
+        android:textSize="14sp"
+        android:padding="@dimen/default_margin_4_dp"
+        android:gravity = "left |center_vertical"
+        android:layout_gravity="left |center_vertical"
+        android:id="@+id/toolbar_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Novo Goleiro"
+            android:textColor="@color/white_FFFFFF"
+            android:textSize="16sp"
+            android:gravity = "center"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:id="@+id/toolbar_title" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:text="Próximo"
+        android:textColor="@drawable/selector_button"
+        android:textSize="14sp"
+        android:padding="@dimen/default_margin_4_dp"
+        android:gravity = "right |center_vertical"
+        android:layout_gravity="right |center_vertical"
+        android:textAllCaps="false"
+        android:enabled="false"
+        android:layout_marginRight="@dimen/default_margin_10_dp"
+        android:id="@+id/toolbar_next" />
+
+    </android.support.v7.widget.Toolbar>
+

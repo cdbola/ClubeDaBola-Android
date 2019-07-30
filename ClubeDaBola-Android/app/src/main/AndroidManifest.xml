@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="cdbol.br.com.clubedabola">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:logo="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar"
+        android:windowSoftInputMode="adjustResize"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <service android:name=".firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/logo" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/orange_clear" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAl-Bc4ABRvsR3J-KQLaInNN2beuuDBWEM" />
+
+        <!-- <meta-data -->
+        <!-- android:name="com.google.android.geo.API_KEY" -->
+        <!-- android:value="AIzaSyBZXzWwtGrBxBT5b7Cw4HQXZm8dvKiVOXw"/> -->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/> <activity android:name="com.facebook.FacebookActivity" android:configChanges= "keyboard|keyboardHidden|screenLayout|screenSize|orientation" android:label="@string/app_name" /> <activity android:name="com.facebook.CustomTabActivity" android:exported="true"> <intent-filter> <action android:name="android.intent.action.VIEW" /> <category android:name="android.intent.category.DEFAULT" /> <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="@string/fb_login_protocol_scheme" /> </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".screens.splash.SplashActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".screens.main.MainActivity" />
+        <activity
+            android:name=".screens.login.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".screens.ajuda.AjudaActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.localizacao.LocalizacaoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".screens.cadastro.CadastroActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.home.HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.contratacao.NovaContratacaoActivity"
+            android:theme="@style/AppThemeNoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity
+            android:name=".screens.local.LocalActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.localmanual.LocalManualActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.escolha.EscolhaActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.cartao.AdicionarCartaoActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".screens.rating.RatingHirerActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.rating.goalkeeper.RatingGoalkeeperActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.becomeplayer.BecomePlayerActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.home.profile.notification.MatchNotificationActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+        <activity
+            android:name=".screens.home.profile.edit.EditProfileActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".screens.home.profile.edit.ChangePasswordActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".screens.home.profile.earnings.EarningsActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".screens.home.profile.payment.ProfilePaymentActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity android:name=".screens.customer.CustomerActivity"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".screens.webview.WebGenericActivity"
+            android:theme="@style/AppThemeNoActionBar" />
+
+    </application>
+
+</manifest>

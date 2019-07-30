@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="item_profile">
+        <item>@string/array_item_profile_0</item>
+        <item>@string/array_item_profile_1</item>
+        <item>@string/array_item_profile_2</item>
+        <item>@string/array_item_profile_3</item>
+        <item>@string/array_item_profile_4</item>
+        <item>@string/array_item_profile_5</item>
+    </string-array>
+</resources>

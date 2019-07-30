@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context="cdbol.br.com.clubedabola.screens.contratacao.NovaContratacaoActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toollbar_cancelar"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:fillViewport="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/relative_content_general"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <!--Content-->
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:id="@+id/linear_layout_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        >
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabel
+                            android:id="@+id/edt_tipo_jogo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="@dimen/default_margin_20_dp"
+                            app:item_hintText="Tipo Jogo"
+                            android:focusable="true"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabel
+                            android:id="@+id/edt_genero"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            app:item_hintText="Gênero"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/edt_tipo_jogo" />
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabel
+                            android:id="@+id/edt_local"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            app:item_hintText="Local"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/edt_genero" />
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabel
+                            android:id="@+id/edt_data"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            app:item_hintText="Data"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/edt_local" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_height="wrap_content">
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabel
+                            android:id="@+id/edt_hora_inicial"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            app:item_hintText="Começa"
+                            android:layout_weight="1"
+                            />
+
+                            <cdbol.br.com.clubedabola.view.ItemViewLabel
+                                android:id="@+id/edt_duracao"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="20dp"
+                                app:item_hintText="Duração"
+                                />
+
+                            <!--<cdbol.br.com.clubedabola.view.ItemViewLabel
+                                android:id="@+id/edt_hora_final"
+                                android:layout_weight="1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginEnd="8dp"
+                                android:layout_marginStart="8dp"
+                                android:layout_marginTop="20dp"
+                                app:item_hintText="Termina"
+                                />-->
+
+
+                        </LinearLayout>
+
+                        <cdbol.br.com.clubedabola.view.ItemViewObservation
+                            android:id="@+id/edt_observacao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="20dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/edt_hora_inicial" />
+
+
+                        <cdbol.br.com.clubedabola.view.ItemViewLabelAlterar
+                            android:id="@+id/edt_tipo_solicitacao"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="@dimen/default_margin_20_dp"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+
+                        <cdbol.br.com.clubedabola.view.ItemGoleiro
+                            android:id="@+id/edt_item_goleiro"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:layout_marginStart="8dp"
+                            android:layout_marginTop="@dimen/default_margin_10_dp"
+
+                             />
+
+
+
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative_content_bottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0">
+
+
+                    <cdbol.br.com.clubedabola.view.ItemCartao
+                        android:id="@+id/item_card"
+                        android:layout_width="match_parent"
+                        android:layout_marginRight="@dimen/default_margin_10_dp"
+                        android:layout_marginLeft="@dimen/default_margin_10_dp"
+                        android:layout_marginBottom="@dimen/default_margin_20_dp"
+                        android:layout_height="wrap_content"/>
+
+
+
+                    <Button
+                        android:id="@+id/btn_hirer"
+                        style="@style/style_button_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/item_card"
+                        android:enabled="true"
+                        android:text="Contratar"
+                        android:layout_marginBottom="@dimen/default_margin_5_dp"
+                        android:layout_marginLeft="@dimen/default_margin_10_dp"
+                        android:layout_marginRight="@dimen/default_margin_10_dp"
+                        />
+
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

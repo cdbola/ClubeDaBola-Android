@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_10_dp"
+        style="@style/label_contratacao"
+        tools:text="Tipo de Jogo"/>
+
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

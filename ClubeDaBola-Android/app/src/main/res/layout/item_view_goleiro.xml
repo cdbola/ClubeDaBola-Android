@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/white_FFFFFF"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/img_goalkeeper"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="8dp"
+        app:srcCompat="@drawable/ic_user"/>
+
+    <TextView
+        android:id="@+id/txtDescricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/default_margin_10_dp"
+        android:layout_marginTop="@dimen/default_margin_5_dp"
+        style="@style/label_contratacao"
+        android:layout_marginLeft="@dimen/default_margin_20_dp"
+        android:text="Aleatório"/>
+
+
+    <View
+        android:background="@color/gray_B5B5B5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+</LinearLayout>

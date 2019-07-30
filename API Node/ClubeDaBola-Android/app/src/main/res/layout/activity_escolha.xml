@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_FFFFFF"
+    tools:context="cdbol.br.com.clubedabola.screens.escolha.EscolhaActivity">
+
+    <include
+        android:id="@+id/toollbar_cadastro"
+        layout="@layout/toollbar_cadastro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autocomplete_escolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:lines="1"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:layout_marginTop="@dimen/default_margin_10_dp"
+         />
+
+    <cdbol.br.com.clubedabola.view.ItemGoleiro
+        android:id="@+id/edt_item_goleiro_escolha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="@dimen/default_margin_10_dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rl_hired_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="56dp"/>
+
+</LinearLayout>

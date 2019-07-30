@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.concrete:canarinho:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/canarinho-2.0.0.aar/7330e9ba878f76febfcf7f009c90375b/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/canarinho-2.0.0.aar/7330e9ba878f76febfcf7f009c90375b/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/br.com.concrete/canarinho/2.0.0/b603e56e7b5ced2529f5e5bfac8aafa88e54c3b3/canarinho-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

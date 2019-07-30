@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Clube da Bola</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="internet_connection_unavailable">Sem Conexão com a Internet</string>
+    <string name="server_error">Server error</string>
+
+    <string name="text_help">Ajuda</string>
+    <string name="text_email">Email</string>
+    <string name="text_password">Senha</string>
+    <string name="text_enter">Entrar</string>
+    <string name="text_facebook_enter">Entrar com o Facebook</string>
+    <string name="text_no_account">Não tem conta? Cadastre-se</string>
+
+
+    <string name="array_item_profile_0">Meus ganhos</string>
+    <string name="array_item_profile_1">Formas de pagamento</string>
+    <string name="array_item_profile_2">Contar a um amigo</string>
+    <string name="array_item_profile_3">Usuários bloqueados</string>
+    <string name="array_item_profile_4">Notificações de partidas</string>
+    <string name="array_item_profile_5">Quero virar jogador</string>
+    <string name="array_item_profile_6">Ajuda</string>
+    <string name="array_item_profile_7">Sair</string>
+
+    <string name="msg_whats">Ta precisando de um goleiro ou juiz pra sua partida com amigos? Baixe agora o app e nunca mais jogue no gol novamente!\n https://cdbola.com.br</string>
+    <string name="title_activity_match_notification">MatchNotificationActivity</string>
+    <string name="text_allow_notification">Permitir notificações</string>
+    <string name="text_radius">Notifique-me sobre partidas no raio de:</string>
+    <string name="text_radius_value">%1$s km</string>
+
+    <string name="title_new_goalkeeper">Novo Goleiro</string>
+    <string name="title_new_referee">Novo Árbitro</string>
+
+
+    <string name="btn_done">Concluir</string>
+    <string name="btn_next">Próximo</string>
+    <string name="title_match_notification">Notificações de partida</string>
+    <string name="title_my_earnings">Meus ganhos</string>
+    <string name="title_select_bank">Selecione o banco</string>
+    <string name="edt_title_name">Nome</string>
+    <string name="edt_title_nickname">Apelido</string>
+    <string name="edt_title_birthday">Data de nascimento</string>
+    <string name="edt_title_email">Email</string>
+    <string name="edt_title_change_pass">Alterar senha</string>
+    <string name="edt_title_new_pass">Digite uma nova senha</string>
+    <string name="edt_title_new_pass_again">Confirme a nova senha</string>
+    <string name="title_edit_profile">Editar perfil</string>
+    <string name="text_rating_player">A partida começou e terminou\npontualmente?</string>
+    <string name="text_sec_question">Como você avalia a qualidade\ndo campo/jogo?</string>
+    <string name="text_third_question">Como você avalia o comportamento\ndo contratante?</string>
+    <string name="text_btn_send_rating">Enviar avaliação</string>
+    <string name="title_rating">Avaliação</string>
+
+    <string name="text_rating_goalkeeper">O goleiro se apresentou no horário\n da partida?</string>
+    <string name="text_sec_question_goalkeeper">O goleiro usou o uniforme\ndo Clube da Bola?</string>
+    <string name="text_third_question_goalkeeper">Como você avalia o comportamento\ndo goleiro?</string>
+
+
+    <string name="text_add_card">Adicionar cartão</string>
+    <string name="title_payment">Formas de pagamento</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+    <string name="facebook_app_id">276174203039731</string>
+    <string name="fb_login_protocol_scheme">fb1128369563956682</string>
+    <string name="text_earnings">Você já recebeu <b>%1$s</b> no Clube da bola</string>
+
+    <string name="text_already_created">Email já cadastrado</string>
+
+
+</resources>

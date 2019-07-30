@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/bottom_navigation_icon_home"
+            app:showAsAction="never"
+            android:checked="true"
+
+            android:title="" />
+        <item
+            android:id="@+id/nav_historico"
+            android:icon="@drawable/bottom_navigation_icon_historico"
+            app:showAsAction="never"
+            android:title="" />
+        <item
+            android:id="@+id/nav_classificacao"
+            android:icon="@drawable/bottom_navigation_icon_classificacao"
+            app:showAsAction="never"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_blog"
+            android:icon="@drawable/bottom_navigation_icon_ranking"
+            app:showAsAction="never"
+            android:title="" />
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/bottom_navigation_icon_perfil"
+            app:showAsAction=""
+            android:title="" />
+
+
+
+</menu>

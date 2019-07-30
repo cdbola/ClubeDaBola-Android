@@ -1,0 +1,804 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6a432c4014692861ee7ce155c32854f1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.irozon.alertview:alertview:1.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\alertview-1.0.1.aar\c7ac0a227788b9e01e1ad377a051a374\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:1.9] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.9.aar\bba4b68730f671fe93fd13b61d48f0fd\AndroidManifest.xml:2:1-17:12
+MERGED from [com.seatgeek:placesautocomplete:0.3-SNAPSHOT] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\placesautocomplete-0.3-SNAPSHOT.aar\3bc744c99d647bc0c146622c6f5f08a4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-login-4.42.0.aar\403db72522453c8ece577fbf5ba73d2a\AndroidManifest.xml:21:1-31:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-0.10.8.aar\24547cd675a6c278b852935446b8b5a0\AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:21:1-37:12
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-commons-0.10.8.aar\8b57c5d102746b54178bb43fd08a9998\AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompatV7-base-0.10.8.aar\1ad3c5f665d89648d81193abf2a022f5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7e5adee433161014734638cf92a1987c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\af307a77fc58437247966fd4b8c03712\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1a9e4d5dd967ade31d62a9a80aee3753\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4d998d9a822dc11f8f5f80af188a4221\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\8055e178d9ac43274979593eeb37de7f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9972829a239dbde9b56e81b34c8c06d8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\c25964dbdd900564da67d824bcbc3201\AndroidManifest.xml:2:1-7:12
+MERGED from [br.com.concrete:canarinho:2.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\canarinho-2.0.0.aar\7330e9ba878f76febfcf7f009c90375b\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\d1575c6021b9dd6cde258431e4f69983\AndroidManifest.xml:2:1-14:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\7bbf258ab5345b0230108c1e36bc2839\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\fdc3d7117fc7dc5864c7fd4abdfd4c15\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:17:1-59:12
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\e5698502e7d7defa97b85c8f8df42fdf\AndroidManifest.xml:17:1-24:12
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-common-0.10.8.aar\ea0298ebcb3a824dddd4671f79a634ee\AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-sdk25-0.10.8.aar\ce20dd1578a7b16cc101932afbb2ee45\AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\65f3ca6ff4dcc754cf3d2d0484334567\AndroidManifest.xml:15:1-21:12
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-0.10.8.aar\6bfed0423fd1bf6b9efae3d2a03087dc\AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-commons-0.10.8.aar\224642cdca4308539d9f0981f023f81d\AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-commons-0.10.8.aar\027b9188f35a27a5a099f5c2b73836b3\AndroidManifest.xml:2:1-13:12
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\platform-base-0.10.8.aar\1b3bcc2f212eeb9deeb6bf7470015a30\AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\supportV4-base-0.10.8.aar\09c6390b12bf3bbfb2af5fe46393148c\AndroidManifest.xml:2:1-11:12
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\commons-base-0.10.8.aar\df071172f027618bac78db943b786692\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f6edf4ac1edfa7ee6744c9a8becf1db0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0329a1a1c2c7852fbfa67eba330f09d5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\5cd3b1769f70c8f566249ce19927cb0d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\74751c0934564a278af425242ef03946\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\3c04002f449fc9c424df64b91a72fe72\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\f7a37681bf56c51c45ba3cb90e6b29fe\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\23be1cdb471215b1a1a1c935bd41278f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\0ec7895d0391b7345bde5a312546f78b\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd432dd5265ebf66f694d77ebd76cac3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a773e66a02e7d02302f24ce91da6231e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\11717f87a79281fad68a92b744bdd3a8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec785d0874cf3c569b9072a0246a0f77\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\01357f229d51da41f4a60b8865f00b08\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\6803744ef3de2b32412369cc2741867d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\077ad2aa5d3602e8c87fcca40b1d9dd7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\eb737973ba9bc27156f31806e6da2e58\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\459117cab273dabc898a83637efebe86\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a310b1133b90a5e5c0d7ce018398ed7f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\04437593af1115b95c60768643b56a92\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\66c2dd13f710dc1683d0335048737904\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\06b004dccd5631b902a3883b1b9b105f\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+	package
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:1-145:12
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:8:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:10:5-98
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:10:22-95
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:11:5-64
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:13:22-77
+application
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:16:5-143:19
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:1.9] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.9.aar\bba4b68730f671fe93fd13b61d48f0fd\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:1.9] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.9.aar\bba4b68730f671fe93fd13b61d48f0fd\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-login-4.42.0.aar\403db72522453c8ece577fbf5ba73d2a\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-login-4.42.0.aar\403db72522453c8ece577fbf5ba73d2a\AndroidManifest.xml:28:5-29:19
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-0.10.8.aar\24547cd675a6c278b852935446b8b5a0\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-0.10.8.aar\24547cd675a6c278b852935446b8b5a0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:28:5-35:19
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-commons-0.10.8.aar\8b57c5d102746b54178bb43fd08a9998\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-commons-0.10.8.aar\8b57c5d102746b54178bb43fd08a9998\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4d998d9a822dc11f8f5f80af188a4221\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4d998d9a822dc11f8f5f80af188a4221\AndroidManifest.xml:9:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\d1575c6021b9dd6cde258431e4f69983\AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\d1575c6021b9dd6cde258431e4f69983\AndroidManifest.xml:12:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\7bbf258ab5345b0230108c1e36bc2839\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\7bbf258ab5345b0230108c1e36bc2839\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\fdc3d7117fc7dc5864c7fd4abdfd4c15\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\fdc3d7117fc7dc5864c7fd4abdfd4c15\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:28:5-57:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:26:5-40:19
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\e5698502e7d7defa97b85c8f8df42fdf\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\e5698502e7d7defa97b85c8f8df42fdf\AndroidManifest.xml:22:5-20
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-common-0.10.8.aar\ea0298ebcb3a824dddd4671f79a634ee\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-common-0.10.8.aar\ea0298ebcb3a824dddd4671f79a634ee\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-sdk25-0.10.8.aar\ce20dd1578a7b16cc101932afbb2ee45\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-sdk25-0.10.8.aar\ce20dd1578a7b16cc101932afbb2ee45\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-0.10.8.aar\6bfed0423fd1bf6b9efae3d2a03087dc\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-0.10.8.aar\6bfed0423fd1bf6b9efae3d2a03087dc\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-commons-0.10.8.aar\224642cdca4308539d9f0981f023f81d\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-commons-0.10.8.aar\224642cdca4308539d9f0981f023f81d\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-commons-0.10.8.aar\027b9188f35a27a5a099f5c2b73836b3\AndroidManifest.xml:11:5-20
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-commons-0.10.8.aar\027b9188f35a27a5a099f5c2b73836b3\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:28:5-51:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\5cd3b1769f70c8f566249ce19927cb0d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\5cd3b1769f70c8f566249ce19927cb0d\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\74751c0934564a278af425242ef03946\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\74751c0934564a278af425242ef03946\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\3c04002f449fc9c424df64b91a72fe72\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\3c04002f449fc9c424df64b91a72fe72\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\f7a37681bf56c51c45ba3cb90e6b29fe\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\f7a37681bf56c51c45ba3cb90e6b29fe\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\23be1cdb471215b1a1a1c935bd41278f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\23be1cdb471215b1a1a1c935bd41278f\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\0ec7895d0391b7345bde5a312546f78b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\0ec7895d0391b7345bde5a312546f78b\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\459117cab273dabc898a83637efebe86\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\459117cab273dabc898a83637efebe86\AndroidManifest.xml:7:5-20
+	android:supportsRtl
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:20:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:24:9-51
+	tools:ignore
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:25:9-48
+	android:roundIcon
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:18:9-36
+	android:allowBackup
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:23:9-56
+	android:logo
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:19:9-36
+service#cdbol.br.com.clubedabola.firebase.MyFirebaseMessagingService
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:27:9-31:19
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:27:18-69
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:28:13-30:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:29:25-75
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:34:9-36:47
+	android:resource
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:35:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:38:9-40:54
+	android:resource
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:40:13-51
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:39:13-84
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:42:9-44:71
+	android:value
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:44:13-68
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:43:13-58
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:50:9-52:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:52:13-66
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:51:13-58
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:9-107
+	android:value
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:66-105
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:20-65
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:108-283
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:248-280
+	android:configChanges
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:163-247
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:118-162
+activity#com.facebook.CustomTabActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:284-56:16
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:340-363
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:294-339
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:365-55:84
+action#android.intent.action.VIEW
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:381-433
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:389-430
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:434-493
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:444-490
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:494-555
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:54:504-552
+data
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:55:9-67
+	android:scheme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:55:15-64
+activity#cdbol.br.com.clubedabola.screens.splash.SplashActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:58:9-68:20
+	android:screenOrientation
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:61:13-49
+	android:noHistory
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:60:13-37
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:62:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:59:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:63:13-67:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:66:27-74
+activity#cdbol.br.com.clubedabola.screens.main.MainActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:69:9-63
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:69:19-60
+activity#cdbol.br.com.clubedabola.screens.login.LoginActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:70:9-74:58
+	android:screenOrientation
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:72:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:74:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:73:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:71:13-56
+activity#cdbol.br.com.clubedabola.screens.ajuda.AjudaActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:75:9-77:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:77:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:76:13-56
+activity#cdbol.br.com.clubedabola.screens.localizacao.LocalizacaoActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:78:9-82:63
+	android:screenOrientation
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:80:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:82:13-60
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:81:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:79:13-68
+activity#cdbol.br.com.clubedabola.screens.cadastro.CadastroActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:83:9-85:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:85:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:84:13-62
+activity#cdbol.br.com.clubedabola.screens.home.HomeActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:86:9-89:58
+	android:label
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:88:13-56
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:89:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:87:13-54
+activity#cdbol.br.com.clubedabola.screens.contratacao.NovaContratacaoActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:90:9-93:76
+	android:configChanges
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:93:13-74
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:92:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:91:13-72
+activity#cdbol.br.com.clubedabola.screens.local.LocalActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:94:9-96:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:96:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:95:13-56
+activity#cdbol.br.com.clubedabola.screens.localmanual.LocalManualActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:97:9-99:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:99:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:98:13-68
+activity#cdbol.br.com.clubedabola.screens.escolha.EscolhaActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:100:9-102:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:102:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:101:13-60
+activity#cdbol.br.com.clubedabola.screens.cartao.AdicionarCartaoActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:103:9-106:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:106:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:105:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:104:13-67
+activity#cdbol.br.com.clubedabola.screens.rating.RatingHirerActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:107:9-109:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:109:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:108:13-63
+activity#cdbol.br.com.clubedabola.screens.rating.goalkeeper.RatingGoalkeeperActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:110:9-112:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:112:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:111:13-79
+activity#cdbol.br.com.clubedabola.screens.becomeplayer.BecomePlayerActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:113:9-115:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:115:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:114:13-70
+activity#cdbol.br.com.clubedabola.screens.home.profile.notification.MatchNotificationActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:116:9-118:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:118:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:117:13-88
+activity#cdbol.br.com.clubedabola.screens.home.profile.edit.EditProfileActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:119:9-122:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:122:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:121:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:120:13-74
+activity#cdbol.br.com.clubedabola.screens.home.profile.edit.ChangePasswordActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:123:9-126:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:126:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:125:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:124:13-77
+activity#cdbol.br.com.clubedabola.screens.home.profile.earnings.EarningsActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:127:9-129:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:129:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:128:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:127:19-81
+activity#cdbol.br.com.clubedabola.screens.home.profile.payment.ProfilePaymentActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:131:9-133:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:133:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:132:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:131:19-86
+activity#cdbol.br.com.clubedabola.screens.customer.CustomerActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:135:9-137:58
+	android:windowSoftInputMode
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:137:13-55
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:136:13-47
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:135:19-68
+activity#cdbol.br.com.clubedabola.screens.webview.WebGenericActivity
+ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:139:9-141:58
+	android:theme
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:141:13-55
+	android:name
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml:140:13-63
+uses-sdk
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6a432c4014692861ee7ce155c32854f1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\6a432c4014692861ee7ce155c32854f1\AndroidManifest.xml:20:5-43
+MERGED from [com.irozon.alertview:alertview:1.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\alertview-1.0.1.aar\c7ac0a227788b9e01e1ad377a051a374\AndroidManifest.xml:8:5-10:41
+MERGED from [com.irozon.alertview:alertview:1.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\alertview-1.0.1.aar\c7ac0a227788b9e01e1ad377a051a374\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:1.9] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.9.aar\bba4b68730f671fe93fd13b61d48f0fd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MdFarhanRaja:SearchableSpinner:1.9] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\SearchableSpinner-1.9.aar\bba4b68730f671fe93fd13b61d48f0fd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.seatgeek:placesautocomplete:0.3-SNAPSHOT] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\placesautocomplete-0.3-SNAPSHOT.aar\3bc744c99d647bc0c146622c6f5f08a4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.seatgeek:placesautocomplete:0.3-SNAPSHOT] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\placesautocomplete-0.3-SNAPSHOT.aar\3bc744c99d647bc0c146622c6f5f08a4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-login-4.42.0.aar\403db72522453c8ece577fbf5ba73d2a\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-login-4.42.0.aar\403db72522453c8ece577fbf5ba73d2a\AndroidManifest.xml:24:5-26:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-0.10.8.aar\24547cd675a6c278b852935446b8b5a0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-0.10.8.aar\24547cd675a6c278b852935446b8b5a0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:24:5-26:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-commons-0.10.8.aar\8b57c5d102746b54178bb43fd08a9998\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-appcompat-v7-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-appcompat-v7-commons-0.10.8.aar\8b57c5d102746b54178bb43fd08a9998\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompatV7-base-0.10.8.aar\1ad3c5f665d89648d81193abf2a022f5\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:appcompatV7-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompatV7-base-0.10.8.aar\1ad3c5f665d89648d81193abf2a022f5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7e5adee433161014734638cf92a1987c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\7e5adee433161014734638cf92a1987c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\af307a77fc58437247966fd4b8c03712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\af307a77fc58437247966fd4b8c03712\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1a9e4d5dd967ade31d62a9a80aee3753\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\1a9e4d5dd967ade31d62a9a80aee3753\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4d998d9a822dc11f8f5f80af188a4221\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4d998d9a822dc11f8f5f80af188a4221\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\8055e178d9ac43274979593eeb37de7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\8055e178d9ac43274979593eeb37de7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9972829a239dbde9b56e81b34c8c06d8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\9972829a239dbde9b56e81b34c8c06d8\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\c25964dbdd900564da67d824bcbc3201\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\c25964dbdd900564da67d824bcbc3201\AndroidManifest.xml:5:5-43
+MERGED from [br.com.concrete:canarinho:2.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\canarinho-2.0.0.aar\7330e9ba878f76febfcf7f009c90375b\AndroidManifest.xml:6:5-8:41
+MERGED from [br.com.concrete:canarinho:2.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\canarinho-2.0.0.aar\7330e9ba878f76febfcf7f009c90375b\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\d1575c6021b9dd6cde258431e4f69983\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\fab-1.6.4.aar\d1575c6021b9dd6cde258431e4f69983\AndroidManifest.xml:8:5-10:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\7bbf258ab5345b0230108c1e36bc2839\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-core-16.0.3.aar\7bbf258ab5345b0230108c1e36bc2839\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\fdc3d7117fc7dc5864c7fd4abdfd4c15\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-api-16.0.1.aar\fdc3d7117fc7dc5864c7fd4abdfd4c15\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:20:5-44
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\e5698502e7d7defa97b85c8f8df42fdf\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-15.0.1.aar\e5698502e7d7defa97b85c8f8df42fdf\AndroidManifest.xml:20:5-44
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-common-0.10.8.aar\ea0298ebcb3a824dddd4671f79a634ee\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-common:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-common-0.10.8.aar\ea0298ebcb3a824dddd4671f79a634ee\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-sdk25-0.10.8.aar\ce20dd1578a7b16cc101932afbb2ee45\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-sdk25:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-sdk25-0.10.8.aar\ce20dd1578a7b16cc101932afbb2ee45\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\65f3ca6ff4dcc754cf3d2d0484334567\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\65f3ca6ff4dcc754cf3d2d0484334567\AndroidManifest.xml:19:5-43
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-0.10.8.aar\6bfed0423fd1bf6b9efae3d2a03087dc\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-0.10.8.aar\6bfed0423fd1bf6b9efae3d2a03087dc\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-commons-0.10.8.aar\224642cdca4308539d9f0981f023f81d\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-support-v4-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-support-v4-commons-0.10.8.aar\224642cdca4308539d9f0981f023f81d\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-commons-0.10.8.aar\027b9188f35a27a5a099f5c2b73836b3\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:anko-commons:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\anko-commons-0.10.8.aar\027b9188f35a27a5a099f5c2b73836b3\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\platform-base-0.10.8.aar\1b3bcc2f212eeb9deeb6bf7470015a30\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:platform-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\platform-base-0.10.8.aar\1b3bcc2f212eeb9deeb6bf7470015a30\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\supportV4-base-0.10.8.aar\09c6390b12bf3bbfb2af5fe46393148c\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:supportV4-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\supportV4-base-0.10.8.aar\09c6390b12bf3bbfb2af5fe46393148c\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\commons-base-0.10.8.aar\df071172f027618bac78db943b786692\AndroidManifest.xml:7:5-9:41
+MERGED from [org.jetbrains.anko:commons-base:0.10.8] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\commons-base-0.10.8.aar\df071172f027618bac78db943b786692\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f6edf4ac1edfa7ee6744c9a8becf1db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\f6edf4ac1edfa7ee6744c9a8becf1db0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0329a1a1c2c7852fbfa67eba330f09d5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\0329a1a1c2c7852fbfa67eba330f09d5\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\5cd3b1769f70c8f566249ce19927cb0d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-stats-15.0.1.aar\5cd3b1769f70c8f566249ce19927cb0d\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\74751c0934564a278af425242ef03946\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-interop-16.0.0.aar\74751c0934564a278af425242ef03946\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\3c04002f449fc9c424df64b91a72fe72\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\3c04002f449fc9c424df64b91a72fe72\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\f7a37681bf56c51c45ba3cb90e6b29fe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\f7a37681bf56c51c45ba3cb90e6b29fe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\23be1cdb471215b1a1a1c935bd41278f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-ads-identifier-15.0.1.aar\23be1cdb471215b1a1a1c935bd41278f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\0ec7895d0391b7345bde5a312546f78b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-17.0.0.aar\0ec7895d0391b7345bde5a312546f78b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\33a04249cc8ad5e8ff182a9b406f58e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd432dd5265ebf66f694d77ebd76cac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\bd432dd5265ebf66f694d77ebd76cac3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a773e66a02e7d02302f24ce91da6231e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\a773e66a02e7d02302f24ce91da6231e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\11717f87a79281fad68a92b744bdd3a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\11717f87a79281fad68a92b744bdd3a8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec785d0874cf3c569b9072a0246a0f77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ec785d0874cf3c569b9072a0246a0f77\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\01357f229d51da41f4a60b8865f00b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\01357f229d51da41f4a60b8865f00b08\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\6803744ef3de2b32412369cc2741867d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\6803744ef3de2b32412369cc2741867d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\077ad2aa5d3602e8c87fcca40b1d9dd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\077ad2aa5d3602e8c87fcca40b1d9dd7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\eb737973ba9bc27156f31806e6da2e58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\eb737973ba9bc27156f31806e6da2e58\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\459117cab273dabc898a83637efebe86\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.2.aar\459117cab273dabc898a83637efebe86\AndroidManifest.xml:5:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a310b1133b90a5e5c0d7ce018398ed7f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a310b1133b90a5e5c0d7ce018398ed7f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\04437593af1115b95c60768643b56a92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\04437593af1115b95c60768643b56a92\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\66c2dd13f710dc1683d0335048737904\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\66c2dd13f710dc1683d0335048737904\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\06b004dccd5631b902a3883b1b9b105f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\06b004dccd5631b902a3883b1b9b105f\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Thiago\Desktop\App-Android-CDBola\ClubeDaBola-Android\app\src\main\AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-common-4.42.0.aar\fcf649d4a5387487fbac88a1224f1636\AndroidManifest.xml:33:19-68
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\de0340078c01e9365edee69cf65cd587\AndroidManifest.xml:9:13-64
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-messaging-17.3.1.aar\2bf7e89ddcb9fc810a70334e33404e55\AndroidManifest.xml:29:13-82
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:24:22-65
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-measurement-connector-impl-17.0.1.aar\da9924ac1180034d0c1067ba8a389f40\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-16.2.1.aar\49edb94d1a13e542687c011f6a5f7b3d\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-analytics-16.0.3.aar\4f59c1152dcfbf8b162536b06f9a0bf9\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-iid-17.0.1.aar\51f298042492c3e2f388a3707fc0b600\AndroidManifest.xml:54:25-77
+service#com.firebase.jobdispatcher.GooglePlayReceiver
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:32:9-39:19
+	android:exported
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:35:13-93
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:33:13-73
+intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:36:13-38:29
+action#com.google.android.gms.gcm.ACTION_TASK_READY
+ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:37:17-87
+	android:name
+		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\7b0d052f839faafaa1dc6901172014c5\AndroidManifest.xml:37:25-84
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\facebook-core-4.42.0.aar\98217402dca193d1480900bc1fb9545b\AndroidManifest.xml:48:25-92
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\f1ba874b60a003a15ae089ba290829a0\AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\f0e53ddd7b052ba1fa9367eef3dd0bd9\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Thiago\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.1.aar\74e9919137636183fc2e14b37fdf4dcc\AndroidManifest.xml:11:13-77

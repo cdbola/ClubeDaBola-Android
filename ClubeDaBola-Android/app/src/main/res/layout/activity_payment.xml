@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_FFFFFF"
+    tools:context="cdbol.br.com.clubedabola.screens.home.profile.notification.MatchNotificationActivity">
+
+    <include
+        android:id="@+id/toolbar_payment"
+        layout="@layout/toollbar"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/rl_payment"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/white_FFFFFF"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/toolbar_payment"/>-->
+
+    <TextView
+        android:id="@+id/tv_add_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/text_add_card"
+        android:textColor="@color/orange_clear"
+        android:textSize="@dimen/default_margin_16_dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_payment" />
+
+
+</android.support.constraint.ConstraintLayout>

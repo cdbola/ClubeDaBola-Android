@@ -1,0 +1,2328 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Cuble da bola API",
+    "description": "Clube da Bola API",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "securityDefinitions": {
+    "Bearer": {
+      "type": "apiKey",
+      "name": "Authorization",
+      "in": "header"
+    }
+  },
+  "host": "localhost:3000",
+  "basePath": "/api/v1",
+  "schemes": [
+    "http",
+    "https"
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+    "/contratantes/auth/signup": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Cadastrar um novo contratante",
+        "description": "",
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Contratante que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Signup"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo contratante criado",
+            "schema": {
+              "$ref": "#/definitions/Signup"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/auth/login/facebook": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Logar na aplicação com facebook",
+        "description": "Ao logar devera retornar o usuario com o token, o token deve estar em todas requests, onde passar o token: req.body.token || req.query.token || req.headers['authorization'] || req.headers['Authorization']",
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Contratante que queremos logar",
+            "schema": {
+              "$ref": "#/definitions/LoginFacebook"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Contratante logado",
+            "schema": {
+              "$ref": "#/definitions/LoginFacebook"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Logar na aplicação",
+        "description": "Ao logar devera retornar o usuario com o token, o token deve estar em todas requests, onde passar o token: req.body.token || req.query.token || req.headers['authorization'] || req.headers['Authorization']",
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Contratante que queremos logar",
+            "schema": {
+              "$ref": "#/definitions/Login"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Contratante logado",
+            "schema": {
+              "$ref": "#/definitions/Login"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/auth/logout": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Fazer logout na aplicação",
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Contratante deslogado"
+          }
+        }
+      }
+    },
+    "/contratantes/auth/resetar": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Resetar senha",
+        "description": "",
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Contratante que queremos resetar a senha",
+            "schema": {
+              "$ref": "#/definitions/Recuperar"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Senha alterada",
+            "schema": {
+              "$ref": "#/definitions/Recuperar"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/auth/recuperar/{email}": {
+      "parameters": [
+        {
+          "name": "email",
+          "in": "path",
+          "required": true,
+          "description": "email do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "summary": "Recuperar senha pelo email",
+        "security": [{
+            "Bearer": []
+        }],
+        "responses": {
+          "200": {
+            "description": "Contratante não encontrado",
+            "schema": {
+
+            }
+          }
+        }
+      }
+    },
+    "/contratantes": {
+      "put": {
+        "tags": [
+          "Contratantes"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Atualizar contratante",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Contratante que queremos atualizar",
+            "schema": {
+              "$ref": "#/definitions/Contratante"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Contratante atualizado",
+            "schema": {
+              "$ref": "#/definitions/Contratante"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Contratantes"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos contratantes",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "$ref": "#/definitions/Contratante"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/{contratanteId}": {
+      "parameters": [
+        {
+          "name": "contratanteId",
+          "in": "path",
+          "required": true,
+          "description": "ID do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Contratantes"
+        ],
+        "summary": "Obter um contratante por ID",
+        "security": [{
+            "Bearer": []
+        }],
+        "responses": {
+          "200": {
+            "description": "Contratante não encontrado",
+            "schema": {
+              "$ref": "#/definitions/Contratante"
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Deletar um contratante por ID",
+        "security": [{
+            "Bearer": []
+        }],
+        "tags": [
+          "Contratantes"
+        ],
+        "responses": {
+          "200": {
+            "description": "Contratante deletado",
+            "schema": {
+              "$ref": "#/definitions/Contratante"
+            }
+          }
+        }
+      }
+    },
+    "/contratantes/{contratanteId}/atualizarAvatar": {
+      "patch": {
+        "tags": [
+          "Contratantes"
+        ],
+        "summary": "Subir uma imagem",
+        "description": "",
+        "operationId": "uploadFile",
+        "consumes": [
+          "multipart/form-data"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "parameters": [
+          {
+            "name": "contratanteId",
+            "in": "path",
+            "description": "ID do contratante",
+            "required": true,
+            "type": "string",
+            "format": "int64"
+          },
+          {
+            "name": "file",
+            "in": "formData",
+            "description": "imagem para subir",
+            "required": true,
+            "type": "file"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "sucesso",
+            "schema": {
+              "$ref": "#/definitions/Avatar"
+            }
+          }
+        }
+      }
+    },
+    "/customers": {
+      "post": {
+        "tags": [
+          "Customers MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Criar um novo customer",
+        "description": "",
+        "parameters": [
+          {
+            "name": "customer",
+            "in": "body",
+            "description": "Customer que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo customer criado",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Customers MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Listar todos customers",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/customers/{customerId}": {
+      "parameters": [
+        {
+          "name": "customerId",
+          "in": "path",
+          "required": true,
+          "description": "ID do customer",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Customers MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Obter um customer por ID",
+        "responses": {
+          "200": {
+            "description": "Customer não encontrado",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        }
+      }
+    },
+    "/creditCards": {
+      "post": {
+        "tags": [
+          "Credit Cards MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Criar um novo credit card",
+        "description": "",
+        "parameters": [
+          {
+            "name": "creditCard",
+            "in": "body",
+            "description": "Credit card que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/CreditCard"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo credit card criado",
+            "schema": {
+              "$ref": "#/definitions/CreditCard"
+            }
+          }
+        }
+      }
+    },
+    "/creditCards/{creditCardId}": {
+      "parameters": [
+        {
+          "name": "creditCardId",
+          "in": "path",
+          "required": true,
+          "description": "ID do credit card",
+          "type": "string"
+        }
+      ],
+      "delete": {
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Deletar um credit card por ID",
+        "tags": [
+          "Credit Cards MOIP"
+        ],
+        "responses": {
+          "200": {
+            "description": "Credit card deletado",
+            "schema": {
+              "$ref": "#/definitions/CreditCard"
+            }
+          }
+        }
+      }
+    },
+    "/orders": {
+      "post": {
+        "tags": [
+          "Orders MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Criar um novo order",
+        "description": "",
+        "parameters": [
+          {
+            "name": "order",
+            "in": "body",
+            "description": "Order que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Order"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo customer criado",
+            "schema": {
+              "$ref": "#/definitions/Customer"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Orders MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Listar todos orders",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/orders/{orderId}": {
+      "parameters": [
+        {
+          "name": "orderId",
+          "in": "path",
+          "required": true,
+          "description": "ID do order",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Orders MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Obter um order por ID",
+        "responses": {
+          "200": {
+            "description": "Order não encontrado",
+            "schema": {
+              "$ref": "#/definitions/Order"
+            }
+          }
+        }
+      }
+    },
+    "/payments": {
+      "post": {
+        "tags": [
+          "Payments MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Criar um novo payment",
+        "description": "",
+        "parameters": [
+          {
+            "name": "payment",
+            "in": "body",
+            "description": "Payment que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Payment"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo payment criado",
+            "schema": {
+              "$ref": "#/definitions/PaymentCreditCard"
+            }
+          }
+        }
+      }
+    },
+    "/payments/{paymentId}": {
+      "parameters": [
+        {
+          "name": "paymentId",
+          "in": "path",
+          "required": true,
+          "description": "ID do payment",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Payments MOIP"
+        ],
+        "security": [{
+          "Bearer": []
+        }],
+        "summary": "Obter um payment por ID",
+        "responses": {
+          "200": {
+            "description": "Payment não encontrado",
+            "schema": {
+              "$ref": "#/definitions/Payment"
+            }
+          }
+        }
+      }
+    },
+    "/arbitros": {
+      "post": {
+        "tags": [
+          "Arbitros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um novo arbitro",
+        "description": "Obs. Precisa passar um ID no: contratante",
+        "parameters": [
+          {
+            "name": "arbitro",
+            "in": "body",
+            "description": "Abritro que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Arbitro"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo arbitro criado",
+            "schema": {
+              "$ref": "#/definitions/Arbitro"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Arbitros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos arbitros",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/arbitros/{arbitroId}": {
+      "parameters": [
+        {
+          "name": "arbitroId",
+          "in": "path",
+          "required": true,
+          "description": "ID do arbitro",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Arbitros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um arbitro por ID",
+        "responses": {
+          "200": {
+            "description": "Arbitro não encontrado",
+            "schema": {
+              "$ref": "#/definitions/Arbitro"
+            }
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um arbitro por ID",
+        "tags": [
+          "Arbitros"
+        ],
+        "responses": {
+          "200": {
+            "description": "Arbitro deletado",
+            "schema": {
+              "$ref": "#/definitions/Arbitro"
+            }
+          }
+        }
+      }
+    },
+    "/arbitros/buscar/{apelido}": {
+      "parameters": [
+        {
+          "name": "apelido",
+          "in": "path",
+          "required": true,
+          "description": "apelido",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Arbitros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar arbitros por apelido",
+        "responses": {
+          "200": {
+            "description": "Arbitros encontrado",
+            "schema": {
+              "$ref": "#/definitions/Arbitro"
+            }
+          }
+        }
+      }
+    },
+    "/arbitrosFavoritos": {
+      "post": {
+        "tags": [
+          "Arbitros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um novo arbitro favorito",
+        "description": "Obs. Precisa passar um ID no: contratante e arbitro",
+        "parameters": [
+          {
+            "name": "arbitroFavorito",
+            "in": "body",
+            "description": "Abritro favorito que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/ArbitroFavorito"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo arbitro favorito criado",
+            "schema": {
+              "$ref": "#/definitions/ArbitroFavorito"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Arbitros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos arbitros favoritos",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/arbitrosFavoritos/{arbitroFavoritoId}": {
+      "parameters": [
+        {
+          "name": "arbitroFavoritoId",
+          "in": "path",
+          "required": true,
+          "description": "ID do arbitro favorito",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Arbitros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um arbitro favorito por ID",
+        "responses": {
+          "200": {
+            "description": "Arbitro favorito não encontrado",
+            "schema": {
+              "$ref": "#/definitions/ArbitroFavorito"
+            }
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um arbitro favorito por ID",
+        "tags": [
+          "Arbitros Favoritos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Arbitro favorito deletado",
+            "schema": {
+              "$ref": "#/definitions/ArbitroFavorito"
+            }
+          }
+        }
+      }
+    },
+    "/goleiros": {
+      "post": {
+        "tags": [
+          "Goleiros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um novo goleiro",
+        "parameters": [
+          {
+            "name": "goleiro",
+            "in": "body",
+            "description": "Goleiro que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Goleiro"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Goleiro criado",
+            "schema": {
+              "$ref": "#/definitions/Goleiro"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Goleiros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos goleiros",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/goleiros/{goleiroId}": {
+      "parameters": [
+        {
+          "name": "goleiroId",
+          "in": "path",
+          "required": true,
+          "description": "ID do goleiro",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Goleiros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter uma partida por ID",
+        "responses": {
+          "200": {
+            "description": "Partida encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um goleiro por ID",
+        "tags": [
+          "Goleiros"
+        ],
+        "responses": {
+          "200": {
+            "description": "Goleiro deletado",
+            "schema": {
+              "$ref": "#/definitions/Goleiro"
+            }
+          }
+        }
+      }
+    },
+    "/goleiros/buscar/{apelido}": {
+      "parameters": [
+        {
+          "name": "apelido",
+          "in": "path",
+          "required": true,
+          "description": "apelido",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Goleiros"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar goleiros por apelido",
+        "responses": {
+          "200": {
+            "description": "Goleiros encontrado",
+            "schema": {
+              "$ref": "#/definitions/Goleiro"
+            }
+          }
+        }
+      }
+    },
+    "/goleirosFavoritos": {
+      "post": {
+        "tags": [
+          "Goleiros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um novo goleiro favorito",
+        "description": "Obs. Precisa passar um ID no: contratante e arbitro",
+        "parameters": [
+          {
+            "name": "goleiroFavorito",
+            "in": "body",
+            "description": "Goleiro favorito que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/GoleiroFavorito"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Novo goleiro favorito criado",
+            "schema": {
+              "$ref": "#/definitions/GoleiroFavorito"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Goleiros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos goleiros favoritos",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/goleirosFavoritos/{goleiroFavoritoId}": {
+      "parameters": [
+        {
+          "name": "goleiroFavoritoId",
+          "in": "path",
+          "required": true,
+          "description": "ID do goleiro favorito",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Goleiros Favoritos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um goleiro favorito por ID",
+        "responses": {
+          "200": {
+            "description": "Goleiro favorito não encontrado",
+            "schema": {
+              "$ref": "#/definitions/GoleiroFavorito"
+            }
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um goleiro favorito por ID",
+        "tags": [
+          "Goleiros Favoritos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Goleiro favorito deletado",
+            "schema": {
+              "$ref": "#/definitions/GoleiroFavorito"
+            }
+          }
+        }
+      }
+    },
+    "/partidas": {
+      "post": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar uma nova partida",
+        "parameters": [
+          {
+            "name": "partida",
+            "in": "body",
+            "description": "Partida que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Partida"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Partida criada",
+            "schema": {
+              "$ref": "#/definitions/Partida"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas partidas",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/partidas/{partidaId}": {
+      "parameters": [
+        {
+          "name": "partidaId",
+          "in": "path",
+          "required": true,
+          "description": "ID da partida",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter uma partida por ID",
+        "responses": {
+          "200": {
+            "description": "Partida encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar uma partida por ID",
+        "tags": [
+          "Partidas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Partida deletada com sucesso"
+          }
+        }
+      }
+    },
+    "/partidas/vincular": {
+      "post": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Vincular um contratante a uma partida",
+        "parameters": [
+          {
+            "name": "contratante",
+            "in": "body",
+            "description": "Partida que queremos vincular",
+            "schema": {
+              "$ref": "#/definitions/Vincular"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Partida vinculada",
+            "schema": {
+              "$ref": "#/definitions/Vincular"
+            }
+          }
+        }
+      }
+    },
+    "/partidas/{partidaId}/desvincular": {
+      "parameters": [
+        {
+          "name": "partidaId",
+          "in": "path",
+          "required": true,
+          "description": "ID da partida",
+          "type": "string"
+        }
+      ],
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Desvincular um contratante de uma partida por ID",
+        "tags": [
+          "Partidas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Partida desvinculada deletada com sucesso"
+          }
+        }
+      }
+    },
+    "/partidas/avaliar": {
+      "put": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Avaliar contratante e contratado",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "avaliar",
+            "in": "body",
+            "description": "Partida que queremos avaliar",
+            "schema": {
+              "$ref": "#/definitions/Avaliar"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Partida vinculada",
+            "schema": {
+              "$ref": "#/definitions/Avaliar"
+            }
+          }
+        }
+      }
+    },
+    "/partidas/recentes/{contratanteId}": {
+      "parameters": [
+        {
+          "name": "contratanteId",
+          "in": "path",
+          "required": true,
+          "description": "ID do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar por partidas recentes passando o id do contratante",
+        "responses": {
+          "200": {
+            "description": "Partidas encontrada"
+          }
+        }
+      }
+    },
+    "/partidas/recentes/contratado/{contratanteId}": {
+      "parameters": [
+        {
+          "name": "contratanteId",
+          "in": "path",
+          "required": true,
+          "description": "ID do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar por partidas recentes passando o id do contratante",
+        "responses": {
+          "200": {
+            "description": "Partidas encontrada"
+          }
+        }
+      }
+    },
+    "/partidas/passadas/{contratanteId}": {
+      "parameters": [
+        {
+          "name": "contratanteId",
+          "in": "path",
+          "required": true,
+          "description": "ID do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar por partidas passadas passando o id do contratante",
+        "responses": {
+          "200": {
+            "description": "Partidas encontrada"
+          }
+        }
+      }
+    },
+    "/partidas/passadas/contratado/{contratanteId}": {
+      "parameters": [
+        {
+          "name": "contratanteId",
+          "in": "path",
+          "required": true,
+          "description": "ID do contratante",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Partidas"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Buscar por partidas passadas passando o id do contratante",
+        "responses": {
+          "200": {
+            "description": "Partidas encontrada"
+          }
+        }
+      }
+    },
+    "/selecionados": {
+      "get": {
+        "tags": [
+          "Selecionados"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas selecionados",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/selecionados/{selecionadoId}": {
+      "parameters": [
+        {
+          "name": "selecionadoId",
+          "in": "path",
+          "required": true,
+          "description": "ID do selecionado",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Selecionados"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um selecionado por ID",
+        "responses": {
+          "200": {
+            "description": "Selecionado encontrado"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um selecionado por ID",
+        "tags": [
+          "Selecionados"
+        ],
+        "responses": {
+          "200": {
+            "description": "Selecionado deletado com sucesso"
+          }
+        }
+      }
+    },
+    "/ranking/arbitros": {
+      "get": {
+        "tags": [
+          "Rankings"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter ranking de arbitros",
+        "responses": {
+          "200": {
+            "description": "Ranking encontrada"
+          }
+        }
+      }
+    },
+    "/ranking/goleiros": {
+      "get": {
+        "tags": [
+          "Rankings"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter ranking de goleiros",
+        "responses": {
+          "200": {
+            "description": "Ranking encontrada"
+          }
+        }
+      }
+    },
+    "/ranking/todos": {
+      "get": {
+        "tags": [
+          "Rankings"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter ranking de todos",
+        "responses": {
+          "200": {
+            "description": "Ranking encontrada"
+          }
+        }
+      }
+    },
+    "/historicos": {
+      "post": {
+        "tags": [
+          "Historicos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um novo historico",
+        "parameters": [
+          {
+            "name": "historico",
+            "in": "body",
+            "description": "Historico que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Historico"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Historico criada",
+            "schema": {
+              "$ref": "#/definitions/Historico"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Historicos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todos historicos",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/historicos/{historicoId}": {
+      "parameters": [
+        {
+          "name": "historicoId",
+          "in": "path",
+          "required": true,
+          "description": "ID do historico",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Historicos"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um historico por ID",
+        "responses": {
+          "200": {
+            "description": "Historico encontrado"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar um historico por ID",
+        "tags": [
+          "Historicos"
+        ],
+        "responses": {
+          "200": {
+            "description": "Historico deletado com sucesso"
+          }
+        }
+      }
+    },
+    "/denuncias": {
+      "post": {
+        "tags": [
+          "Denuncias"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar uma denuncia",
+        "description": "Obs. Precisa passar o ID para os campos: denunciante e denunciado",
+        "parameters": [
+          {
+            "name": "denuncia",
+            "in": "body",
+            "description": "Denuncia que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Denuncia"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Denuncia criada",
+            "schema": {
+              "$ref": "#/definitions/Denuncia"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Denuncias"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas denuncias",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/denuncias/{denunciaId}": {
+      "parameters": [
+        {
+          "name": "denunciaId",
+          "in": "path",
+          "required": true,
+          "description": "ID da denuncia",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Denuncias"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter uma denuncia por ID",
+        "responses": {
+          "200": {
+            "description": "Denuncia encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar uma denuncia por ID",
+        "tags": [
+          "Denuncias"
+        ],
+        "responses": {
+          "200": {
+            "description": "Denuncia deletada com sucesso"
+          }
+        }
+      }
+    },
+    "/bloqueados": {
+      "post": {
+        "tags": [
+          "Bloqueados"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar um bloqueado",
+        "description": "Obs. Precisa passar o ID para os campos: bloqueante e bloqueado",
+        "parameters": [
+          {
+            "name": "bloqueado",
+            "in": "body",
+            "description": "Bloqueio que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Bloqueado"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Bloqueio criada",
+            "schema": {
+              "$ref": "#/definitions/Bloqueado"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Bloqueados"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas bloqueados",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/bloqueados/{bloqueadoId}": {
+      "parameters": [
+        {
+          "name": "bloqueadoId",
+          "in": "path",
+          "required": true,
+          "description": "ID do bloqueado",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Bloqueados"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter um bloqueado por ID",
+        "responses": {
+          "200": {
+            "description": "Bloqueado encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar uma bloqueado por ID",
+        "tags": [
+          "Bloqueados"
+        ],
+        "responses": {
+          "200": {
+            "description": "Bloqueado deletada com sucesso"
+          }
+        }
+      }
+    },
+    "/carteiras": {
+      "post": {
+        "tags": [
+          "Carteiras Digitais"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar uma carteira",
+        "description": "Obs. Precisa passar o ID para os campos: contratante",
+        "parameters": [
+          {
+            "name": "carteira",
+            "in": "body",
+            "description": "Carteira que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Carteira"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Carteira criada",
+            "schema": {
+              "$ref": "#/definitions/Carteira"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Carteiras Digitais"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas carteiras",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/carteiras/{carteiraId}": {
+      "parameters": [
+        {
+          "name": "carteiraId",
+          "in": "path",
+          "required": true,
+          "description": "ID da carteira",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Carteiras Digitais"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter uma carteira por ID",
+        "responses": {
+          "200": {
+            "description": "Carteira encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar uma carteira por ID",
+        "tags": [
+          "Carteiras Digitais"
+        ],
+        "responses": {
+          "200": {
+            "description": "Carteira deletada com sucesso"
+          }
+        }
+      }
+    },
+    "/resgatar/carteira": {
+      "post": {
+        "tags": [
+          "Resgatar Carteira"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Resgatar",
+        "description": "Obs. Precisa passar o ID para os campos: contratante",
+        "parameters": [
+          {
+            "name": "resgatar",
+            "in": "body",
+            "description": "Carteira que queremos resgatar",
+            "schema": {
+              "$ref": "#/definitions/CarteiraResgatar"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Carteira resgatada",
+            "schema": {
+              "$ref": "#/definitions/CarteiraResgatar"
+            }
+          }
+        }
+      }
+    },
+    "/carteira/detail/{id}": {
+      "get": {
+        "tags": [
+          "Visualizar Carteira"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Resgatar",
+        "description": "Obs. Precisa passar o ID para os campos: contratante",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID do Contratante",
+            "schema": {
+              "$ref": "#/definitions/CarteiraResgatar"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Carteira resgatada",
+            "schema": {
+              "$ref": "#/definitions/CarteiraResgatar"
+            }
+          }
+        }
+      }
+    },
+
+
+    "/notificacoes": {
+      "post": {
+        "tags": [
+          "Notificações"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Criar uma notificacao",
+        "description": "Obs. Precisa passar o ID para os campos: contratante",
+        "parameters": [
+          {
+            "name": "notificacao",
+            "in": "body",
+            "description": "Notificacao que queremos criar",
+            "schema": {
+              "$ref": "#/definitions/Notificacao"
+            }
+          }
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Notificacao criada",
+            "schema": {
+              "$ref": "#/definitions/Notificacao"
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Notificações"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Listar todas notificacoes",
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/notificacoes/{notificacaoId}": {
+      "parameters": [
+        {
+          "name": "notificacaoId",
+          "in": "path",
+          "required": true,
+          "description": "ID da notificacao",
+          "type": "string"
+        }
+      ],
+      "get": {
+        "tags": [
+          "Notificações"
+        ],
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Obter uma notificacao por ID",
+        "responses": {
+          "200": {
+            "description": "Notificacao encontrada"
+          }
+        }
+      },
+      "delete": {
+        "security": [{
+            "Bearer": []
+        }],
+        "summary": "Deletar uma notificacao por ID",
+        "tags": [
+          "Notificações"
+        ],
+        "responses": {
+          "200": {
+            "description": "Notificacao deletada com sucesso"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Signup": {
+      "required": [
+        "email",
+        "senha"
+      ],
+      "properties": {
+        "nome": {"type": "string", "uniqueItems": true, "example": "Tiago Lima"},
+        "apelido": {"type": "string", "uniqueItems": true, "example": "Liminha"},
+        "imagem": {"type": "string", "uniqueItems": true, "example": "tiago.png"},
+        "dataNascimento": {"type": "string", "uniqueItems": true, "example": "Sat Nov 11 1989 00:00:00 GMT-0200 (Brasilia Summer Time)"},
+        "email": {"type": "string", "uniqueItems": true, "example": "contratante@cdbola.com.br"},
+        "senha": {"type": "string", "uniqueItems": true, "example": "SemSenha123"}
+      }
+    },
+    "Contratante": {
+      "properties": {
+        "id": {"type": "string", "uniqueItems": true, "example": "id do contratante"},
+        "nome": {"type": "string", "uniqueItems": true, "example": "Tiago Lima"},
+        "apelido": {"type": "string", "uniqueItems": true, "example": "Liminha"},
+        "dataNascimento": {"type": "string", "uniqueItems": true, "example": "Sat Nov 11 1989 00:00:00 GMT-0200 (Brasilia Summer Time)"}
+      }
+    },
+    "Login": {
+      "required": [
+        "email",
+        "senha"
+      ],
+      "properties": {
+        "email": {"type": "string", "uniqueItems": true, "example": "contratante@cdbola.com.br"},
+        "senha": {"type": "string", "uniqueItems": true, "example": "SemSenha123"}
+      }
+    },
+    "LoginFacebook": {
+      "required": [
+        "email"
+      ],
+      "properties": {
+        "nome": {"type": "string", "uniqueItems": true, "example": "Tiago Lima"},
+        "apelido": {"type": "string", "uniqueItems": true, "example": "Liminha"},
+        "imagem": {"type": "string", "uniqueItems": true, "example": "tiago.png"},
+        "dataNascimento": {"type": "string", "uniqueItems": true, "example": "Sat Nov 11 1989 00:00:00 GMT-0200 (Brasilia Summer Time)"},
+        "email": {"type": "string", "uniqueItems": true, "example": "contratante@cdbola.com.br"}
+      }
+    },
+    "Avatar": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "message": {
+          "type": "string"
+        }
+      }
+    },
+    "Recuperar": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "contratante id"},
+        "senha": {"type": "string", "uniqueItems": true, "example": "nova senha"}
+      }
+    },
+    "Vincular": {
+      "properties": {
+        "partida": {"type": "string", "uniqueItems": true, "example": "id da partida"},
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id do contratante"}
+      }
+    },
+    "Avaliar": {
+      "properties": {
+        "partida": {"type": "string", "uniqueItems": true, "example": "id da partida"},
+        "notaContratante": {"type": "number", "uniqueItems": true, "example": 5},
+        "notaContratado": {"type": "number", "uniqueItems": true, "example": 10}
+      }
+    },
+    "Partida": {
+      "required": [
+        "data",
+        "tipoJogo"
+      ],
+      "properties": {
+        "customerId": {"type": "string", "uniqueItems": true, "example": "customerId do contratante"},
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id do contratante"},
+        "contratado": {"type": "string", "uniqueItems": true, "example": "id do contratado"},
+        "notaContratado": {"type": "number", "uniqueItems": true, "example": 10},
+        "notaContratante": {"type": "number", "uniqueItems": true, "example": 5},
+        "preferenciaContratante": {"type": "string", "uniqueItems": true, "example": "id do contratante(goleiro/juiz)"},
+        "tipoJogo": {"type": "string", "uniqueItems": true},
+        "genero": {"type": "string", "uniqueItems": true},
+        "data": {"type": "string", "uniqueItems": true, "example": "20-10-2018"},
+        "endereco": {
+          "properties": {
+            "lagradouro": {"type": "string", "uniqueItems": true},
+            "numero": {"type": "string", "uniqueItems": true},
+            "complemento": {"type": "string", "uniqueItems": true},
+            "bairro": {"type": "string", "uniqueItems": true},
+            "loc": {
+              "properties": {
+                "coordinates": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "comeca": {"type": "string", "uniqueItems": true, "example": "16:10"},
+        "termina": {"type": "string", "uniqueItems": true, "example": "19:40"},
+        "observacoes": {"type": "string", "uniqueItems": true},
+        "tipoPessoa": {"type": "string", "uniqueItems": true, "example": "G ou A"},
+        "aleatorio": {"type": "boolean", "uniqueItems": true},
+        "valor": {"type": "number", "uniqueItems": true, "example": 100},
+        "cvc": {"type": "string", "uniqueItems": true, "example": "123"}
+      }
+    },
+    "Customer": {
+      "properties": {
+        "ownId": {"type": "string", "uniqueItems": true, "example": "id do contratante"},
+        "fullname": {"type": "string", "uniqueItems": true, "example": "Jose da Silva"},
+        "email": {"type": "string", "uniqueItems": true, "example": "jose_silva@email.com"},
+        "birthDate": {"type": "string", "uniqueItems": true, "example": "1988-12-30"},
+        "taxDocument": {
+          "properties": {
+            "type": {"type": "string", "uniqueItems": true, "example": "CPF"},
+            "number": {"type": "string", "uniqueItems": true, "example": "22222222222"}
+          }
+        },
+        "phone": {
+          "properties": {
+            "countryCode": {"type": "string", "uniqueItems": true, "example": "55"},
+            "areaCode": {"type": "string", "uniqueItems": true, "example": "11"},
+            "number": {"type": "string", "uniqueItems": true, "example": "66778899"}
+          }
+        },
+        "shippingAddress": {
+          "properties": {
+            "city": {"type": "string", "uniqueItems": true, "example": "Sao Paulo"},
+            "complement": {"type": "string", "uniqueItems": true, "example": "8"},
+            "district": {"type": "string", "uniqueItems": true, "example": "Itaim"},
+            "street": {"type": "string", "uniqueItems": true, "example": "Avenida Faria Lima"},
+            "streetNumber": {"type": "string", "uniqueItems": true, "example": "2927"},
+            "zipCode": {"type": "string", "uniqueItems": true, "example": "01234000"},
+            "state": {"type": "string", "uniqueItems": true, "example": "SP"},
+            "country": {"type": "string", "uniqueItems": true, "example": "BRA"}
+          }
+        },
+        "fundingInstrument": {
+          "properties": {
+            "method": {"type": "string", "uniqueItems": true, "example": "CREDIT_CARD"},
+            "creditCard": {
+              "properties": {
+                "expirationMonth": {"type": "string", "uniqueItems": true, "example": "06"},
+                "expirationYear": {"type": "string", "uniqueItems": true, "example": "22"},
+                "number": {"type": "string", "uniqueItems": true, "example": "6362970000457013"},
+                "cvc": {"type": "string", "uniqueItems": true, "example": "123"},
+                "holder":{
+                  "properties": {
+                    "fullname": {"type": "string", "uniqueItems": true, "example": "Maria de Oliveira"},
+                    "birthdate": {"type": "string", "uniqueItems": true, "example": "1980-05-10"},
+                    "taxDocument":{
+                      "properties": {
+                        "type": {"type": "string", "uniqueItems": true, "example": "CPF"},
+                        "number": {"type": "string", "uniqueItems": true, "example": "10013390023"}
+                      }
+                    },
+                    "billingAddress": {
+                      "properties": {
+                        "city": {"type": "string", "uniqueItems": true, "example": "Rio de Janeiro"},
+                        "district": {"type": "string", "uniqueItems": true, "example": "Copacabana"},
+                        "street": {"type": "string", "uniqueItems": true, "example": "Rua Raimundo Corrêa"},
+                        "streetNumber": {"type": "string", "uniqueItems": true, "example": "1200"},
+                        "zipCode": {"type": "string", "uniqueItems": true, "example": "05246200"},
+                        "state": {"type": "string", "uniqueItems": true, "example": "RJ"},
+                        "country": {"type": "string", "uniqueItems": true, "example": "BRA"}
+                      }
+                    },
+                    "phone":{
+                      "properties": {
+                        "countryCode": {"type": "string", "uniqueItems": true, "example": "55"},
+                        "areaCode": {"type": "string", "uniqueItems": true, "example": "11"},
+                        "number": {"type": "string", "uniqueItems": true, "example": "22226842"}
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Order": {
+      "properties": {
+        "own_id": {"type": "string", "uniqueItems": true, "example": "id da partida"},
+        "amount": {
+          "properties": {
+            "currency": {"type": "string", "uniqueItems": true, "example": "BRL"},
+            "subtotals": {
+              "properties": {
+                "shipping": {"type": "number", "uniqueItems": true, "example": 1000}
+              }
+            }
+          }
+        },
+        "items": [{
+          "properties": {
+            "product": {"type": "string", "uniqueItems": true, "example": "Contratação de um Jogador"},
+            "quantity": {"type": "number", "uniqueItems": true, "example": 1},
+            "detail": {"type": "string", "uniqueItems": true, "example": "16:40-19:40"},
+            "price": {"type": "number", "uniqueItems": true, "example": 100}
+          }
+        }],
+        "customer": {
+          "properties": {
+            "id": {"type": "string", "uniqueItems": true, "example": "id do customer CUS-87HFA3QCEKO7"}
+          }
+        }
+      }
+    },
+    "CreditCard": {
+      "properties": {
+        "customerId": {"type": "string", "uniqueItems": true, "example": "customerId"},
+        "creditCard": {
+          "properties": {
+            "expirationMonth": {"type": "string", "uniqueItems": true, "example": "05"},
+            "expirationYear": {"type": "string", "uniqueItems": true, "example": "22"},
+            "number": {"type": "string", "uniqueItems": true, "example": "5555666677778884"},
+            "cvc": {"type": "string", "uniqueItems": true, "example": "123"},
+            "holder": {
+              "properties": {
+                "fullname": {"type": "string", "uniqueItems": true, "example": "Jose Portador da Silva"},
+                "birthdate": {"type": "string", "uniqueItems": true, "example": "1988-12-30"},
+                "taxDocument": {
+                  "properties": {
+                    "type": {"type": "string", "uniqueItems": true, "example": "CPF"},
+                    "number": {"type": "string", "uniqueItems": true, "example": "33333333333"}
+                  }
+                },
+                "phone": {
+                  "properties": {
+                    "countryCode": {"type": "string", "uniqueItems": true, "example": "55"},
+                    "areaCode": {"type": "string", "uniqueItems": true, "example": "11"},
+                    "number": {"type": "string", "uniqueItems": true, "example": "66778899"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Payment": {
+      "properties": {
+        "orderId": {"type": "string", "uniqueItems": true, "example": "order id"},
+        "payment": {
+          "properties": {
+            "installmentCount": {"type": "number", "uniqueItems": true, "example": 1},
+            "fundingInstrument": {
+              "properties": {
+                "method": {"type": "string", "uniqueItems": true, "example": "CREDIT_CARD"},
+                "creditCard": {
+                  "properties": {
+                    "cvc": {"type": "string", "uniqueItems": true, "example": "123"},
+                    "id": {"type": "string", "uniqueItems": true, "example": "credit card id"}
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Historico": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id contratante"},
+        "contratado": {"type": "string", "uniqueItems": true, "example": "id contratado"},
+        "partida": {"type": "string", "uniqueItems": true, "example": "id da partida"},
+        "avaliacaoContratante": {"type": "number", "uniqueItems": true, "example": 0},
+        "avaliacaoContratado": {"type": "number", "uniqueItems": true, "example": 10}
+      }
+    },
+    "Goleiro": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true},
+        "genero": {"type": "string", "uniqueItems": true},
+        "tamanhoLuva": {"type": "string", "uniqueItems": true},
+        "tamanhoCamiseta": {"type": "string", "uniqueItems": true},
+        "dadosBancarios": {
+          "properties": {
+            "cpf": {"type": "string", "uniqueItems": true, "example": "22222222233"},
+            "banco": {"type": "string", "uniqueItems": true, "example": "Itau"},
+            "agencia": {"type": "string", "uniqueItems": true, "example": "4040"},
+            "conta": {"type": "string", "uniqueItems": true, "example": "00022343-4"}
+          }
+        },
+        "endereco": {
+          "properties": {
+            "lagradouro": {"type": "string", "uniqueItems": true},
+            "numero": {"type": "string", "uniqueItems": true},
+            "complemento": {"type": "string", "uniqueItems": true},
+            "bairro": {"type": "string", "uniqueItems": true},
+            "loc": {
+              "properties": {
+                "coordinates": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "telefone": {"type": "string", "uniqueItems": true},
+        "celular": {"type": "string", "uniqueItems": true},
+        "avatar": {"type": "string", "uniqueItems": true},
+        "notificacoes": {"type": "boolean", "uniqueItems": true},
+        "raio": {"type": "number", "uniqueItems": true}
+      }
+    },
+    "GoleiroFavorito": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id contratante 123"},
+        "goleiro": {"type": "string", "uniqueItems": true, "example": "id goleiro 123"}
+      }
+    },
+    "Arbitro": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true},
+        "genero": {"type": "string", "uniqueItems": true},
+        "tamanhoLuva": {"type": "string", "uniqueItems": true},
+        "tamanhoCamiseta": {"type": "string", "uniqueItems": true},
+        "dadosBancarios": {
+          "properties": {
+            "cpf": {"type": "string", "uniqueItems": true, "example": "22222222233"},
+            "banco": {"type": "string", "uniqueItems": true, "example": "Itau"},
+            "agencia": {"type": "string", "uniqueItems": true, "example": "4040"},
+            "conta": {"type": "string", "uniqueItems": true, "example": "00022343-4"}
+          }
+        },
+        "endereco": {
+          "properties": {
+            "lagradouro": {"type": "string", "uniqueItems": true},
+            "numero": {"type": "string", "uniqueItems": true},
+            "complemento": {"type": "string", "uniqueItems": true},
+            "bairro": {"type": "string", "uniqueItems": true},
+            "loc": {
+              "properties": {
+                "coordinates": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "telefone": {"type": "string", "uniqueItems": true},
+        "celular": {"type": "string", "uniqueItems": true},
+        "avatar": {"type": "string", "uniqueItems": true},
+        "notificacoes": {"type": "boolean", "uniqueItems": true},
+        "raio": {"type": "number", "uniqueItems": true}
+      }
+    },
+    "ArbitroFavorito": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id contratante 123"},
+        "arbitro": {"type": "string", "uniqueItems": true, "example": "id arbitro 123"}
+      }
+    },
+    "Denuncia": {
+      "properties": {
+        "denunciante": {"type": "string", "uniqueItems": true},
+        "denunciado": {"type": "string", "uniqueItems": true},
+        "descricao": {"type": "string", "uniqueItems": true},
+        "status": {"type": "string", "uniqueItems": true}
+      }
+    },
+    "Bloqueado": {
+      "properties": {
+        "bloqueante": {"type": "string", "uniqueItems": true, "example": "id do contratante"},
+        "bloqueado": {"type": "string", "uniqueItems": true, "example": "id do contratante"}
+      }
+    },
+    "Carteira": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id contratante"}
+      }
+    },
+    "CarteiraResgatar": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id_contratante"}
+      }
+    },
+    "Notificacao": {
+      "properties": {
+        "contratante": {"type": "string", "uniqueItems": true, "example": "id contratante"},
+        "tokenNotification": {"type": "string", "uniqueItems": true}
+      }
+    }
+  }
+}

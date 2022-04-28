@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/faganello60/CDBOLA-API-NODE#readme",
   "dependencies": {
-    "async": "^2.6.1",
+    "async": "^2.6.4",
     "babel-cli": "^6.26.0",
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",

@@ -28,7 +28,7 @@
     "bcrypt": "^3.0.0",
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-load": "^1.1.16",
     "express-session": "^1.15.6",
     "firebase-admin": "^6.1.0",
